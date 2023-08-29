@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Etch-a-Sketch</title>
+    <script src ="etch.js" defer></script>
+    <link rel="stylesheet" href="etch.css">
+</head>
+<body>
+    <h1>Etch-a-sketch</h1>
+    <div class="btns">
+        <button id="reset">Reset</button>
+        <button id="colour">Colour</button>
+        <button id="rgb">RGB</button>
+        <input id="colorPicker" type="color" value="#333333" />
+        <div class="sliderAndValue">
+            <input type="range" min="2" max="100" value="16" id="slider">
+            <p id="svalue">16</p>
+        </div>
+    </div> 
+	<div class="container" id="container"></div>
+    <footer>This project is part of <a href="https://www.theodinproject.com/courses/web-development-101/lessons/etch-a-sketch-project">The Odin Project Curriculum</a></footer>
+</body>
+</html>
